@@ -41,6 +41,8 @@ node {
             
             sh "scp -o StrictHostKeyChecking=no /var/lib/jenkins/workspace/scripted-pipeline/target/maven-web-application.war ubuntu@13.213.35.227:/opt/tomcat/webapps"
     
+    echo "======================================Logged In Tomcat Server Successfully======================================"
+    
         }
         
     }
